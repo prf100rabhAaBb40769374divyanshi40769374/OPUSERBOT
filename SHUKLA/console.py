@@ -34,10 +34,10 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
+OWNER_ID = int(getenv("OWNER_ID", "6743351433"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6919199044").split()))
-ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6743351433").split()))
+ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/205f3cf027a5a11f5f70e.jpg")
 
 
 # OPTIONAL VARIABLES
@@ -55,7 +55,7 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 5))
 
 
 # USERBOT DEFAULT IMAGE
-USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg")
+USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://telegra.ph/file/205f3cf027a5a11f5f70e.jpg")
 
 
 
