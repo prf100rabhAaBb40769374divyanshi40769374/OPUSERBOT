@@ -1,14 +1,14 @@
 {
     "name": "SHUKLAUSERBOT",
     "description": "SHUKLAUSERBOT is an advanced & powerful multi-featured Telegram userbot.",
-    "logo": "https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg",
+    "logo": "https://telegra.ph/file/205f3cf027a5a11f5f70e.jpg",
     "keywords": [
         "SHUKLAUSERBOT",
         "telegram-userbot",
         "telegram-music-bot",
         "telegram-video-bot"
     ],
-    "repository": "https://github.com/itzshukla/STRANGER-OPUSERBOT2.0",
+    "repository": "https://github.com/PROFESSOR-SOURABH/OPUSERBOT",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -29,17 +29,17 @@
         "SUDO_USERS": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "6566179661"
+            "value": "6743351433"
         },
           "OWNER_ID": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "6566179661"
+            "value": "6743351433"
               },
           "OWNER_USERNAME": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "SHIVANSH39"
+            "value": "SOURABH_OWNER"
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here.",
