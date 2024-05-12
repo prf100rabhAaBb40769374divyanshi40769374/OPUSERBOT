@@ -68,7 +68,7 @@ def inline_wrapper(func):
                     [
                         InlineKeyboardButton(
                             "💥 Deploy Shukla Userbot ✨",
-                            url=f"https://github.com/itzshukla/STRANGER-OPUSERBOT2.0"
+                            url=f"https://github.com/PROFESSOR-SOURABH"
                         )
                     ]
                 ]
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/PROFESSOR-SOURABH/</i>||"
                                 ),
                             )
                         )
