@@ -31,7 +31,7 @@ async def _human_time_duration(seconds):
 
 @app.on_message(cdz(["alive"])  & (filters.me | filters.user(SUDO_USER)))
 async def alive(client: Client, message: Message):
-    r = await message.reply_text("**𝐒ᴛʀᴀɴɢᴇʀ**")
+    r = await message.reply_text("**❖ ⠇ 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 ⠇ ❖**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -40,12 +40,12 @@ async def alive(client: Client, message: Message):
     await message.delete()
     await r.edit(
         f"︎ [ 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] ︎︎︎\n\n"
-        f"𝐕ᴇʀsɪᴏɴ ⁂1.0\n"
-        f"𝐏ɪɴɢ ⁂ {ping * 1000:.3f}ᴍs\n"
-        f"𝐔ᴘᴛɪᴍᴇ ⁂ {uptime}\n"
-        f"𝐏ʏᴛʜᴏɴ ⁂ {python_version()}`\n"
-        f"𝐏ʏʀᴏɢʀᴀᴍ ⁂ {__version__}\n"
-        f"𝐎ᴡɴᴇʀ ⁂ {client.me.mention}"    
+        f"❍ ➥ ᴠᴇʀsɪᴏɴ ▸ 2.0\n"
+        f"❍ ➥ sᴘᴇᴇᴅ ▸ {ping * 1000:.3f}ᴍs\n"
+        f"❍ ➥ ᴜᴘᴛɪᴍᴇ ▸ {uptime}\n"
+        f"❍ ➥ ᴘʏᴛʜᴏɴ ▸ {python_version()}`\n"
+        f"❍ ➥ ᴘʏʀᴏɢʀᴀᴍ ▸ {__version__}\n"
+        f"❍ ➥ ᴏᴡɴᴇʀ ▸ {client.me.mention}"    
     )
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
@@ -66,7 +66,7 @@ async def ping(client: Client, message: Message):
               )
 @app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
-    r = await message.reply_text("**𝐑ᴇᴘᴏ**")
+    r = await message.reply_text("**❖ ⠇ 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 ⠇ ❖**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -74,8 +74,8 @@ async def ping(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f"𝗥𝗘𝗣𝗢 ⁂\n\n"
-        f"[💫 𝐑ᴇᴘᴏ 💫](https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/fork)\n"
+        f"𝗥𝗘𝗣𝗢 𝗕𝗬 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 ⁂\n\n"
+        f"[💫 ᴄʟɪᴄᴋ ᴀɴᴅ ɢᴇᴛ ʀᴇᴘᴏ 💫](https://t.me/Friends_Chatting_Group_Friends_0)\n"
     )    
 
 
