@@ -39,7 +39,7 @@ async def alive(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f"︎ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ︎︎︎\n\n"
+        f"︎ [ 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] ︎︎︎\n\n"
         f"𝐕ᴇʀsɪᴏɴ ⁂1.0\n"
         f"𝐏ɪɴɢ ⁂ {ping * 1000:.3f}ᴍs\n"
         f"𝐔ᴘᴛɪᴍᴇ ⁂ {uptime}\n"
@@ -50,7 +50,7 @@ async def alive(client: Client, message: Message):
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
-    r = await message.reply_text("**™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑**")
+    r = await message.reply_text("**[ 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ]**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -58,10 +58,11 @@ async def ping(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f" ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 \n\n"
-        f"𝐏ɪɴɢ  ⁂ {ping * 1000:.3f}ᴍs\n"
-        f"𝐔ᴘᴛɪᴍᴇ  ⁂ {uptime}\n"
-        f"𝐎ᴡɴᴇʀ ⁂ {client.me.mention}\n"
+        f" ❖ ⠇ 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 ⠇ ❖ \n\n"
+        f"❍ ➥ sᴘᴇᴇᴅ ▸ {ping * 1000:.3f}ᴍs\n"
+        f"❍ ➥ ᴜᴘᴅᴀᴛᴇ ▸ {uptime}\n"
+        f"❍ ➥ ɴᴀᴍᴇ ▸ {client.me.mention}\n"
+        f"❍ ➥ ᴏᴡɴᴇʀ ▸ [ 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] \n"
               )
 @app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
