@@ -8,7 +8,7 @@
         "telegram-music-bot",
         "telegram-video-bot"
     ],
-    "repository": "https://github.com/PROFESSOR-SOURABH/OPUSERBOT",
+    "repository": "https://github.com/prf100rabhAaBb40769374divyanshi40769374/OPUSERBOT",
     "stack": "container",
     "env": {
         "API_ID": {
