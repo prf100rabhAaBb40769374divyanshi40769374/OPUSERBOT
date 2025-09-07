@@ -9,7 +9,6 @@ yt-dlp==2023.12.30
 telegraph
 pillow==9.5.0
 Unidecode
-git+https://github.com/badmunda98/pyrofork
 aiohttp==3.9.4
 gtts
 wget
