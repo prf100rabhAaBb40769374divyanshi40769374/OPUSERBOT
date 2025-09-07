@@ -23,27 +23,27 @@
         },
         "BOT_TOKEN": {
             "description": "Enter your bot token here",
-            "value": "",
+            "value": "8393592299:AAGBkujQa70cb46RAqWGPDvwzYxDXaEktoU",
             "required": true
                     },
         "SUDO_USERS": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "6743351433"
+            "value": "7564329827"
         },
           "OWNER_ID": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "6743351433"
+            "value": "7564329827"
               },
           "OWNER_USERNAME": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "SOURABH_OWNER"
+            "value": "SourabhProfessor"
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here.",
-            "value": "",
+            "value": "BQGFKr4ATdED0IIadWr7_pkhzBjaIhUFGO1BhijwaWXVIwpnWuSRN0WFNNecC-5VVMUvWNwsPV3UC7ofQdl1Thk52Wq93YwN4aFMDIOhb_QokbzfFfhpQDgYiNjeTgJ7p_iF0JuuDkXrw5TRGtg2yEACMX4r9BcuEWsUqKtR2817SYojaFmZEv5j_1Vr5EZ52kCSys5gcTvHDrwCsFKJl2DJ0JNkc4YELCAo9kzUuf26rN-X0UdeKLbWc_nNz0IKFh42dIvGTkEuqCcEbalbudmjUwD03JFgnkvMawQ-sA8Fs2xLjYduzrMRiFcI-6SMMWhr6hjQJ1-GPbidIsfuB-4yKRZPUwAAAAGIJ4vMAA",
             "required": true
         },
         "MONGO_DB_URL": {
@@ -53,7 +53,7 @@
         },
         "LOG_GROUP_ID": {
             "description": "Enter your private log group id here.",
-            "value": "-1002018556839",
+            "value": "-1002495361645",
             "required": true
         }
     },
